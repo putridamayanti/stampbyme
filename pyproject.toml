@@ -1,0 +1,10 @@
+[project]
+name = "stampbyme"
+version = "0.1.0"
+description = "Turn an AI-generated stamp sheet into transparent PNG stamps and a Procreate brush set."
+requires-python = ">=3.12"
+dependencies = ["opencv-python-headless>=4.9", "Pillow>=10.1", "numpy>=1.26"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
